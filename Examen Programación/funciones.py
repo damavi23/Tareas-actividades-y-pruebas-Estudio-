@@ -67,7 +67,6 @@ def ver_estadisticas(trabajadores):
     
     return sueldos
 
-#Funcion que crea un archivo csv con el nombre de trabajadores, sus sueldos,descuento de salud (0.7%), descuento de AFP (12%) y sueldo líquido. Todo esto debe quedar indentado en el archivo.
 def reporte_de_sueldos(trabajadores):
 
     with open("reporte_sueldos.csv", "w") as f:
